@@ -1,4 +1,4 @@
-FROM envoyproxy/envoy:v1.22.0
+FROM envoyproxy/envoy:v1.32.4
 COPY envoy.yaml /etc/envoy/envoy.yaml
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
